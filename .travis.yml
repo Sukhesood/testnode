@@ -1,0 +1,7 @@
+sudo: reuired
+services:
+   - docker
+
+script:
+  - docker build -t project14 .
+  - docker images project14
